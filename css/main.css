@@ -248,7 +248,14 @@ footer{
 }
 
 /* <-------------------------Login------------------------> */
-
+.fondo_login{
+    background-image: url(/img/ed-259-Zm-CkDSKC1M-unsplash.jpg);
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+    
+}
 
 
 
