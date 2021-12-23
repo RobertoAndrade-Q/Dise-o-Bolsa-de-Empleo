@@ -339,7 +339,9 @@ footer{
     height: 100vh;
     background-position: center center;
     background-size: cover;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 body{
@@ -354,4 +356,29 @@ body{
 
 h1{
     margin: 0 0 20px 0;
+}
+
+.contenedor-registro{
+    width: 500px;
+    height: 800px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.contenedor-registro form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header-registro{
+    display: flex;
+}
+
+span i{
+    font-size: 4em;
+    margin-right: 10px;
 }
