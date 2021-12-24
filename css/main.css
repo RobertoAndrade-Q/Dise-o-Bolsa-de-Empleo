@@ -365,7 +365,8 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    border-radius: 20px;
+    padding: 10px 0;
 }
 
 .contenedor-registro form{
