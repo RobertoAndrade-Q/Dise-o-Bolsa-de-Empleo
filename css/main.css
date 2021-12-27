@@ -254,6 +254,84 @@ footer{
     background-position: right;
     height: 100vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.cuerpo_login{
+    font-family: var(--main-font);
+    width: 400px;
+    height: 450px;
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: center center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.header-login{
+    padding-left: 90px;
+   
+}
+
+
+
+.cuerpo_login h3 {
+    color: #147935;
+    margin-left: 75px;
+}
+
+.cuerpo_login h3 span {
+    color: gray;
+
+}
+
+.cuerpo_login form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuerpo_login form input {
+    
+    height: 40px;
+    width: 250px;
+    background-color: #f0f0f0;
+    border-color: rgb(190, 190, 190);
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.iniciar-sesion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iniciar-sesion input {
+    height: 30px;
+    width: 200px;
+    border: none;
+    color: #ffffff;
+    background-color: #147935;
+    border-radius: 5px;
+}
+
+.footer-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-login a {
+    color: #147935;
     
 }
 
