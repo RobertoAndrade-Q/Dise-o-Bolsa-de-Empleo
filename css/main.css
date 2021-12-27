@@ -379,7 +379,8 @@ h1{
     display: flex;
 }
 
-span i{
+.header-registro span i{
     font-size: 4em;
     margin-right: 10px;
 }
+
